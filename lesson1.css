@@ -1,0 +1,33 @@
+#b_id{
+    
+    background-attachment:fixed;
+    color:black; 
+    margin:50px;
+    opacity:70%; 
+    border-radius: 50px;
+
+}
+#p_id
+{
+    background-color:red;
+}
+
+.gurusclass
+{
+    font-style: italic;
+}
+h1{
+    color:#CE822C;
+    border-bottom: 2px dashed #CE822C;
+}
+#d_id
+{
+    border:6px dashed white;
+    padding:20px; background:white; 
+    background-position:center;
+    border-radius: 50px;
+    background-image: url();
+}
+table{
+    background-color:#D2805D;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> My Form</title>
+</head>
+<body>
+	<form method="POST" action="">
+		<h1> My First Form</h1>
+		<div>
+			<label>Name</label>
+			<input type="text" name="sname" placeholder="Enter your name">
+		</div>
+		<br>
+		<div>
+			<label>Gender</label>
+			<input type="radio" name="sgender" value="Male">Male
+			<input type="radio" name="sgender" value="Female">Female
+		</div>
+		<br>
+		<div>
+			<label>Course</label>
+			<select name="scourse">
+				<option value="">--select course--</option>
+				<option value="cs">Computer Science</option>
+				<option value="it">Information Technology</option>
+				<option value="bbit"> Business Information Technology</option>
+				<option value="cosf">Computer Security and Forensics </option>
+			</select>
+		</div>
+		<br>
+		<div>
+			<label>Accept terms and conditions</label>
+			<input type="checkbox" name="sterms" value="Yes">Accept terms and conditions
+		</div>
+		<br>
+		<div>
+			<label>Birthdate</label>
+			<input type="date" name="sbirthdate">
+		</div>
+		<br>
+		<div>
+			<label>Details</label>
+			<textarea name="sdetails" placeholder="tell us about yourself"></textarea>
+		</div>
+		<br>
+		<div>
+			<label>Unit Code </label>
+			<select name="sunitcode" multiple>
+				<option value="">--select unit code--</option>
+				<option value="Comp214">Comp214</option>
+				<option value="Comp215">Comp215</option>
+				<option value="Comp216"> Comp216</option>
+				<option value="Comp217">Comp217 </option>
+			</select>
+		</div>
+		<br>
+		<div>
+			<label>Upload Admission form</label>
+			<input type="file" name="supload" >
+		</div>
+		<br>
+		<div>
+			<label>Add color</label>
+			<input type="color" name="scolor" value="#FF0000" >
+		</div>
+
+		<div> 
+			<button>Submit</button>
+			<input type="Submit" name="submit" value="save">
+		<div>
+
+	</form>
+</body>
+</html>
+ 

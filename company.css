@@ -1,0 +1,19 @@
+#navbar{
+  background: #4bacc6 ;
+  font-family: calibri;
+  padding-right: 15px;
+  padding-left: 15px;
+  padding-bottom: ;
+  border-bottom: 3px solid white;
+}
+#navdiv{
+  display: flex;
+  align-items: left;
+  justify-content:space-between;
+
+}
+#logo img{
+  max-width: 100px;
+  width: 60px;
+  height: auto;
+}

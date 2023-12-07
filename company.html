@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Web Company</title>
+  <link rel="stylesheet" type="text/css" href="css/company.css">
+  <style>
+  li{
+  list-style:none;
+  display: inline-block;
+
+  }
+  li a{
+  text-decoration-line: none;
+  color:red;
+  padding-top:5px;
+  padding-bottom:4px;
+  padding-left: 6px;
+  padding-right: 6px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 25px;
+  border: 3px solid blue;
+  background: #f5f5f5;
+  border-radius: 5px;
+  align-content: left;
+  align-items:center ;
+}
+ 
+ body{
+  background: #4bacc6 ;
+ }
+
+  </style>
+</head>
+<body>
+
+  <nav id="navbar">
+      <div id="navdiv">
+          <div id="logo"> 
+            <a href="#">
+              <img style="align-items: left;" src="images/web_logo.png" alt="logo">
+            </a> 
+          </div>
+          <ul>
+              <li onclick="showDialog()"><a href="#">HOME</a>  </li>
+              <li><a href="#">GALLERY</a> </li>
+              <li><a href="#">PRODUCTS</a> </li>
+              <li><a href="#">SERVICES</a> </li>
+          </ul>
+      </div>
+  </nav>
+
+  <script>
+    function showDialog(){
+      alert("Welcome Home");
+    }
+  </script>
+
+</body>
+</html>

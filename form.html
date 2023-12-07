@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+
+   <head>
+      <title>Add new Contact form</title>
+      <style>
+            label{
+                  display:inline;
+                  margin-bottom: 5px;
+                  padding-left: 10px;
+                  padding-right: auto;
+            } 
+            input,select{
+                  display:inline-flex;
+                  margin-inline: 30px;
+                  margin-bottom:5px;
+                  padding:5px;
+                  border:1px solid #cccccc;
+                  border-radius:3px;
+                  align-items: center;
+            }
+
+      </style>
+   </head>
+      
+   <body>
+      <h1> Add new Contact </h1>
+      <form style="width:500px;" method="POST" action="" >
+            <label style="padding-right: 15px;">ID Number  </label> 
+            <input type = "text" name = "IDNo" placeholder = "Enter Identification Number" />
+            <br>
+            <label >First name </label>
+            <input type = "text" name = "first_name" placeholder = "Enter First Name"  />
+            <br>
+            <label>Last name  </label>
+            <input type = "text" name = "last_name" placeholder = "Enter Last Name"/>
+            <br>
+            <label>Gender  </label>
+            <input type = "radio" name = "Male" /> Male <input type = "radio" name = "Female" /> Female
+            <br>
+            <label>Phone  </label>
+            <input type = "tel" name = "Phone" placeholder = "+2547-- -- -- --" />
+            <br>
+            <label>Email  </label>
+            <input type = "email" name = "Email" placeholder = "Enter Email" />
+            <br>
+            <label>Address  </label><input type = "text" name = "Address" placeholder = "Enter Address"/>
+            <br>
+            <label>Date of Birth  </label><input type = "date" name = "DateofBirth" placeholder = "mm/dd/yyyy" />
+            <br> 
+            <label>Position </label>
+                  <select name="position" placeholder = "">
+                        <option value="">-Select position if official-</option>
+                        <option value="CEO">CEO</option>
+                        <option value="CFO">CFO</option>
+                        <option value="COO">COO</option>
+                        <option value="Manager">Manager</option>
+                  </select>
+            <br>
+            <button> Submit </button>
+
+      </form>
+   </body>
+      
+</html>

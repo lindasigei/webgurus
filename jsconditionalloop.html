@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title> JS conditional loops</title>
+</head>
+<body>
+ <script type="text/javascript">
+		var start =parseInt(prompt("enter start point"));
+		var end =parseInt(prompt("enter ending point"));
+		if(start<=end){
+			//increment
+			while(start<=end){
+				document.writeln(start);
+				start+=100;
+			}
+		}
+		else if(start>=end){
+				while(start>=end){
+				document.writeln(start);
+				start-=100;
+			}
+		}
+		
+	</script>
+</body>
+</html>
